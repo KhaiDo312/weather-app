@@ -101,7 +101,6 @@
                 </div>
             </div>
 
-            <!-- Edit Modal (inline) -->
             <div id="edit-modal" class="card hidden">
                 <h2>✏️ Edit Record #<span id="edit-id"></span></h2>
                 <div class="form-group">
@@ -126,9 +125,6 @@
             </div>
         </section>
 
-        <!-- ============================================================ -->
-        <!-- EXPLORE TAB (YouTube + Maps + Forecast)                       -->
-        <!-- ============================================================ -->
         <section id="tab-explore" class="tab-panel hidden">
             <div class="card">
                 <h2>Explore a Location</h2>
@@ -140,13 +136,11 @@
                 <button class="btn btn-primary" onclick="exploreLocation()">🔍 Explore</button>
             </div>
 
-            <!-- Forecast -->
             <div id="forecast-card" class="card hidden">
                 <h2>📅 5-Day Forecast</h2>
                 <div id="forecast-container"></div>
             </div>
 
-            <!-- Google Maps -->
             <div id="maps-card" class="card hidden">
                 <h2>🗺️ Google Maps</h2>
                 {% if has_maps %}
@@ -156,7 +150,6 @@
                 {% endif %}
             </div>
 
-            <!-- YouTube Videos -->
             <div id="youtube-card" class="card hidden">
                 <h2>🎬 YouTube Videos</h2>
                 {% if has_youtube %}
@@ -167,9 +160,6 @@
             </div>
         </section>
 
-        <!-- ============================================================ -->
-        <!-- EXPORT TAB                                                    -->
-        <!-- ============================================================ -->
         <section id="tab-export" class="tab-panel hidden">
             <div class="card">
                 <h2>Export Weather Data</h2>
@@ -201,9 +191,6 @@
         </section>
     </main>
 
-    <!-- ============================================================ -->
-    <!-- FOOTER                                                        -->
-    <!-- ============================================================ -->
     <footer>
         <p>
             Built by <strong>Khai Hoang Do</strong> · AI Engineer Intern Technical Assessment ·
